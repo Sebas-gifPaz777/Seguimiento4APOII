@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
+   <center>
+      <Pane prefHeight="300.0" prefWidth="304.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="99.0" layoutY="54.0" text="CAJA FUERTE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="14.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+            <TextField layoutX="204.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+            <TextField layoutX="152.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+            <TextField layoutX="109.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+            <TextField layoutX="63.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+            <TextField layoutX="256.0" layoutY="117.0" prefHeight="37.0" prefWidth="43.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
